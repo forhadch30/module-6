@@ -24,6 +24,10 @@ nav {
     font-weight: 800;
 }
 
+.banner-title {
+    margin-bottom: 0px;
+}
+
 .here-btn {
     border-radius: 5px;
     background: #FD6E0A;
@@ -41,7 +45,8 @@ nav {
     background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-
+    background-size: 70px, 600px;
+    background: #FFF8F3;
 }
 
 nav ul {
@@ -80,11 +85,12 @@ li a {
     max-width: 500px;
 }
 
-.titleb {
+.title-b {
     color: var(--Dark-01, #181818);
     font-family: "Open Sans";
     font-size: 70px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .contact-b {
@@ -109,4 +115,157 @@ li a {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+
+/* main style */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* main section */
+.section-content {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-container {
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.section-par {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    /* 166.667% */
+}
+
+.contact-Form {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.contact-p {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+/* What i do */
+.I-do {
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+}
+
+.I-pa {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.i-do-title {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.w-i-d-main {
+    display: flex;
+    gap: 20px;
+}
+
+.i-do-div {
+    width: 205px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* summary style */
+.summary-container {
+    /* text-align: center; */
+}
+
+.summary-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary-h {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary-1 {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary-2 {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.summary-3 {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 385px;
+    border-bottom: 2px solid gray;
+    /* 175% */
 }
